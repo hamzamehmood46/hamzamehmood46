@@ -21,6 +21,14 @@ Reference implementations of patterns I use in production. Each has a README, au
 | [Resilience Toolkit](https://github.com/hamzamehmood46/resilience-toolkit-dotnet) | Retry with jitter, circuit breaker, timeout, bulkhead |
 | [API Rate Limiter](https://github.com/hamzamehmood46/api-rate-limiter-dotnet) | Token bucket and sliding window, ASP.NET Core middleware |
 
+### Full-stack (Angular + .NET)
+
+| Project | What it shows |
+|---|---|
+| [Inventory Manager](https://github.com/hamzamehmood46/inventory-manager-angular-dotnet) | CRUD with Angular 22 and an ASP.NET Core Web API, EF Core, paging and sorting |
+| [Claims Portal](https://github.com/hamzamehmood46/claims-portal-angular) | JWT login and role-based workflow UI on top of the Claims API |
+| [Employee Directory](https://github.com/hamzamehmood46/employee-directory-angular-dotnet) | Async form validation, minimal APIs, soft delete, dashboard |
+
 ## Tech I work with
 
 - **Backend:** C#, .NET 8, ASP.NET Core, Web API, Entity Framework Core, microservices, event-driven architecture
