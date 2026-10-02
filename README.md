@@ -10,6 +10,8 @@ Based in Vienna, VA. Open to **.NET and backend engineering roles** in the DMV a
 
 Reference implementations of patterns I use in production. Each has a README, automated tests and CI, and none contains employer code.
 
+**Try it live:** [Coffee Shop Rush](https://hamzamehmood46.github.io/coffee-shop-rush/) is an animated cafe that shows, without jargon, how real software keeps orders safe when something crashes. Crash the barista, flip the safety net, crash again. Blazor WebAssembly, 23 tests. ([source](https://github.com/hamzamehmood46/coffee-shop-rush))
+
 | Project | What it shows |
 |---|---|
 | [OrderFlow](https://github.com/hamzamehmood46/orderflow-dotnet) | Idempotent APIs, retries with backoff, dead-letter handling in ASP.NET Core |
