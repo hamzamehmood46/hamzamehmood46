@@ -16,6 +16,7 @@ Reference implementations of patterns I use in production. Each has a README, au
 
 | Project | What it shows |
 |---|---|
+| [Monolith vs Microservices](https://github.com/hamzamehmood46/monolith-vs-microservices-dotnet) | One checkout system as a modular monolith and as four services; the same 12 scenarios (idempotency, compensation, no overselling, outages) pass in both |
 | [OrderFlow](https://github.com/hamzamehmood46/orderflow-dotnet) | Idempotent APIs, retries with backoff, dead-letter handling in ASP.NET Core |
 | [Transactional Outbox](https://github.com/hamzamehmood46/outbox-pattern-dotnet) | Reliable event publishing, competing dispatchers, idempotent consumers |
 | [Claims API](https://github.com/hamzamehmood46/claims-api-dotnet) | Clean Architecture, JWT auth, role-based claim workflow |
