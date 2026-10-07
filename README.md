@@ -16,6 +16,7 @@ Reference implementations of patterns I use in production. Each has a README, au
 
 | Project | What it shows |
 |---|---|
+| [Till: Point of Sale](https://hamzamehmood46.github.io/point-of-sale-dotnet/) | Offline-first register in C# (live demo): split payments, refunds, drawer reconciliation, and sales that sync exactly once after an outage |
 | [Monolith vs Microservices](https://github.com/hamzamehmood46/monolith-vs-microservices-dotnet) | One checkout system as a modular monolith and as four services; the same 12 scenarios (idempotency, compensation, no overselling, outages) pass in both |
 | [OrderFlow](https://github.com/hamzamehmood46/orderflow-dotnet) | Idempotent APIs, retries with backoff, dead-letter handling in ASP.NET Core |
 | [Transactional Outbox](https://github.com/hamzamehmood46/outbox-pattern-dotnet) | Reliable event publishing, competing dispatchers, idempotent consumers |
