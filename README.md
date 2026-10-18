@@ -18,15 +18,18 @@ Reference implementations of patterns I use in production. Each has a README, au
 |---|---|
 | [Hold My Seat](https://hamzamehmood46.github.io/seat-booking-dotnet/) | Seat booking in C# (live demo): expiring holds, all-or-nothing reservations, idempotent purchases, and no double-booking under real multi-threaded contention |
 | [Till: Point of Sale](https://hamzamehmood46.github.io/point-of-sale-dotnet/) | Offline-first register in C# (live demo): split payments, refunds, drawer reconciliation, and sales that sync exactly once after an outage |
+| [Multi-tenant SaaS API (live demo)](https://tenant-saas-api-dotnet.onrender.com/swagger) | Tenant isolation enforced in the query and write layers, roles, per-tenant rate limits; 28 tests |
+| [Webhook Gateway (live demo)](https://webhook-gateway-dotnet.onrender.com/swagger) | HMAC-signed webhooks, replay protection, retries, dead letters, idempotent receiver; 68 tests |
+| [Job Scheduler (live demo)](https://hamzamehmood46.github.io/job-scheduler-dotnet/) | Cron, retries, missed-run and overlap policies, dead letters, on a simulated clock; 76 tests |
 | [Monolith vs Microservices](https://github.com/hamzamehmood46/monolith-vs-microservices-dotnet) | One checkout system as a modular monolith and as four services; the same 12 scenarios (idempotency, compensation, no overselling, outages) pass in both |
 | [OrderFlow](https://github.com/hamzamehmood46/orderflow-dotnet) ([live API](https://orderflow-dotnet.onrender.com/swagger)) | Idempotent APIs, retries with backoff, dead-letter handling in ASP.NET Core |
-| [Transactional Outbox](https://github.com/hamzamehmood46/outbox-pattern-dotnet) | Reliable event publishing, competing dispatchers, idempotent consumers |
+| [Transactional Outbox](https://github.com/hamzamehmood46/outbox-pattern-dotnet) ([live API](https://outbox-pattern-dotnet.onrender.com/swagger)) | Reliable event publishing, competing dispatchers, idempotent consumers |
 | [Claims API](https://github.com/hamzamehmood46/claims-api-dotnet) ([live API](https://claims-api-dotnet.onrender.com/swagger)) | Clean Architecture, JWT auth, role-based claim workflow |
-| [Event-Sourced Ledger](https://github.com/hamzamehmood46/event-sourced-ledger-dotnet) | Event sourcing, CQRS, optimistic concurrency |
+| [Event-Sourced Ledger](https://github.com/hamzamehmood46/event-sourced-ledger-dotnet) ([live API](https://event-sourced-ledger-dotnet.onrender.com/swagger)) | Event sourcing, CQRS, optimistic concurrency |
 | [SQL Performance Lab](https://github.com/hamzamehmood46/sql-performance-lab-dotnet) | Query tuning verified by identical results and query plans |
 | [XML Mapping Service](https://github.com/hamzamehmood46/xml-mapping-service-dotnet) ([live API](https://xml-mapping-service-dotnet.onrender.com/swagger)) | XSD validation, sandboxed XSLT, XXE protection |
-| [Resilience Toolkit](https://github.com/hamzamehmood46/resilience-toolkit-dotnet) | Retry with jitter, circuit breaker, timeout, bulkhead |
-| [API Rate Limiter](https://github.com/hamzamehmood46/api-rate-limiter-dotnet) | Token bucket and sliding window, ASP.NET Core middleware |
+| [Resilience Toolkit](https://github.com/hamzamehmood46/resilience-toolkit-dotnet) ([live playground](https://hamzamehmood46.github.io/resilience-toolkit-dotnet/)) | Retry with jitter, circuit breaker, timeout, bulkhead |
+| [API Rate Limiter](https://github.com/hamzamehmood46/api-rate-limiter-dotnet) ([live playground](https://hamzamehmood46.github.io/api-rate-limiter-dotnet/)) | Token bucket and sliding window, ASP.NET Core middleware |
 
 ### Full-stack (Angular + .NET)
 
