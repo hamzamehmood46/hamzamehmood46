@@ -21,6 +21,7 @@ Reference implementations of patterns I use in production. Each has a README, au
 | [Pipeline CRM (live demo)](https://hamzamehmood46.github.io/mini-crm-dotnet/) | CRM-style project: duplicate-proof lead conversion, strict deal pipeline, forecast, OData-style filters, versioned sync to another system; 142 tests |
 | [Nudge: invoice reminders (live demo)](https://hamzamehmood46.github.io/invoice-reminders-dotnet/) | Invoicing and payment reminders: escalating schedule, once-only late fees, idempotent payments, aging report, cash forecast; 93 tests |
 | [Flagpole: feature flags (live demo)](https://hamzamehmood46.github.io/feature-flags-dotnet/) | Feature flags: targeting rules, stable percentage rollouts, variants, prerequisites, outage-safe client; 125 tests |
+| [Webhook Relay (live demo)](https://webhook-relay-dotnet.onrender.com/swagger) | Webhook relay: signature verification, de-duplication, routing, retries, dead letters, replay, circuit breaker, per-customer workspaces; 252 tests |
 | [Multi-tenant SaaS API (live demo)](https://tenant-saas-api-dotnet.onrender.com/swagger) | Tenant isolation enforced in the query and write layers, roles, per-tenant rate limits; 28 tests |
 | [Webhook Gateway (live demo)](https://webhook-gateway-dotnet.onrender.com/swagger) | HMAC-signed webhooks, replay protection, retries, dead letters, idempotent receiver; 68 tests |
 | [Job Scheduler (live demo)](https://hamzamehmood46.github.io/job-scheduler-dotnet/) | Cron, retries, missed-run and overlap policies, dead letters, on a simulated clock; 76 tests |
